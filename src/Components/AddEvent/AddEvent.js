@@ -38,7 +38,7 @@ const AddEvent = () => {
         axios.post('https://api.imgbb.com/1/upload', 
         imageData)
           .then(function (response) {
-            console.log(response.data.data.delete_url);
+            console.log(response.data.data.display_url);
             setImageURL(response.data.data.display_url);
           })
           .catch(function (error) {
