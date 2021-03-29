@@ -1,0 +1,17 @@
+.addEvent{
+    margin: 60px;
+    padding: 35px;
+    height: 70vh;
+    text-align: center;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 4px;
+}
+
+.main-button{
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
